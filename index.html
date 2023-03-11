@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather app</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class=" navbar navbar-expand-lg bg-body-tertiary navbar1 ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">AQI Monitor</a>
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" id="cityinp" autocomplete="off" placeholder="Search"
+                    aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" id="submitcity">Search</button>
+            </form>
+        </div>
+        </div>
+    </nav>
+
+
+    <div class="card_container">
+
+        <div class="card1">
+
+
+            <h3>Air Concentration of <span id="cityName"></span></h3>
+
+            <p style="font-weight: bold;"> CO : <span id="co" class="val"></span></p>
+            <p style="font-weight: bold;"> NO2 :<span id="no2" class="val"></span></p>
+
+            <p style="font-weight: bold;"> O3 : <span id="o3" class="val"></span></p>
+            <p style="font-weight: bold;"> PM10 : <span id="pm10" class="val"></span></p>
+            <p style="font-weight: bold;"> SO2 :<span id="so2" class="val"></span></p>
+
+        </div>
+    </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

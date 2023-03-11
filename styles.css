@@ -1,0 +1,29 @@
+ .card_container {
+
+     display: flex;
+     padding: 10px;
+     flex-direction: row;
+     /* text-align: center; */
+     align-items: center;
+     justify-content: center;
+     height: 70vh;
+
+ }
+
+ .card1 {
+     border: 3px solid rgb(65, 16, 16);
+     border-radius: 5px;
+     margin: 15px;
+     height: 40vh;
+     width: 36vw;
+     text-align: center;
+ }
+
+ .val {
+     font-weight: normal;
+ }
+
+ .d-flex {
+     position: absolute;
+     right: 10px;
+ }
